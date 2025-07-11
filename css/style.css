@@ -91,7 +91,6 @@ main{
 	line-height: 24px;
 	white-space: nowrap;
 	height: 40px;
-	color: #7E7E82;
 	background-color: #F8F8F8;
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -102,6 +101,10 @@ main{
 	background-color: #FFFFFF;
 	border: 2px solid #B8FFEC;
 	border-radius: 6px;
+}
+.slide-menu__link{
+	color: #7E7E82;
+	text-decoration: none;
 }
 .slide-menu__button:hover:not(.slide-menu__button--active) {
 	background-color: #efeff3;
@@ -139,7 +142,8 @@ main{
 	line-height: 24px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	background-color: #F8F8F8;
+	background-color: transparent;
+	color: #1B1C21;
 }
 .content__button::before {
 	content: url(../img/expand.svg);
