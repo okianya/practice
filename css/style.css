@@ -242,10 +242,7 @@ main{
 			color: #1B1C21;
 			text-decoration: none;
 		}
-		.button-list--desktop__link:hover{
-			color: #7E7E82;
-		}
-		.button-list--desktop__svg:hover{
+		.button-list--desktop__button:hover{
 			transform: scale(1.1);
 			transition: 0.2s;
 		}
